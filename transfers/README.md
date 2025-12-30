@@ -24,8 +24,8 @@ tulkinnan, käytännön riskienhallinnan ja organisaation tekniset toimenpiteet.
 
 ### Artikla 49 – Poikkeukset
 - Mahdollistaa siirron ilman riittävyyttä tai SCC:tä tietyissä poikkeustilanteissa, kuten:
-  - rekisteröidyn suostumus,  
-  - sopimusvelvoitteet,  
+  - rekisteröidyn suostumus
+  - sopimusvelvoitteet  
   - kiireelliset hätätilanteet.
 
 ---
@@ -42,6 +42,6 @@ tulkinnan, käytännön riskienhallinnan ja organisaation tekniset toimenpiteet.
 - Kaikki siirrot dokumentoidaan osana käsittelytoimien rekisteriä (RoPA).  
 - Riskinarvio ja lieventävät toimet on kirjattava ja todennettava.  
 - Auditoija kiinnittää huomiota:
-  - onko riittävyyden arviointi tehty asianmukaisesti,  
-  - onko SCC:t tai muut sopimusmekanismit käytössä,  
+  - onko riittävyyden arviointi tehty asianmukaisesti 
+  - onko SCC:t tai muut sopimusmekanismit käytössä
   - onko arvioitu oikeusturva ja viranomaisvalvonta vastaanottavassa maassa.
