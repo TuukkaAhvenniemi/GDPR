@@ -34,7 +34,7 @@ Ne yhdistävät juridisen vaatimuksen, käytännön tietoturvakontrollit ja orga
 
 ---
 
-## Mihin viranomainen ja auditoija kiinnittävät huomiota
+## Mihin kiinnittää huomiota!!!
 
 - Onko teknisten ja organisatoristen kontrollien taso suhteutettu käsittelyn riskiin.  
 - Onko dokumentaatio täydellinen ja helposti tarkastettavissa.  
