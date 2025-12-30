@@ -26,7 +26,7 @@ DPIA ei ole lomake, vaan jatkuva riskipohjainen prosessi, jota päivitetään k�
 - Kyky tunnistaa ajoissa, milloin riski on aidosti “residual risk”.  
 - Valmius perustella ratkaisut viranomaiselle teknisellä tai juridisella tasolla.
 
-### Art. 29 Working Party / EDPB – Ohjeet (viitekehys)
+### Art. 29 Working Party / EDPB – (viitekehys)
 - Tarjoavat käytännön tulkintaohjeet DPIA:n tekemiseen.
 - Sisältävät esimerkkejä korkean riskin käsittelystä (profilointi, laajamittainen seuranta, erityiset henkilötietoryhmät).
 - Määrittelevät arviointikriteerejä, joita viranomaiset käyttävät tarkastuksissa.
