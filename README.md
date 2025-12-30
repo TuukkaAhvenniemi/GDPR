@@ -35,13 +35,13 @@ Tämä repository esittelee, miten GDPR:n vaatimukset kytkeytyvät teknisiin kon
 - DPA, rekisteriselosteet, RoPA, Incident- ja DPIA-mallit.  
 - Pohjat näyttävät, miten tekninen osaaminen yhdistyy hallintamalleihin ja prosessidokumentaatioon.
 
-### `/transfers` – Kansainväliset tietosiirrot
-- EU/ETA-ulkopuoliset siirrot, SCC:t, poikkeukset, Schrems II.  
-- Painotus teknisiin ja organisatorisiin toimenpiteisiin siirtojen turvallistamiseksi.
-
 ### `/TOMs` – Tekniset ja organisatoriset toimenpiteet
 - Privacy by Design & Default, käsittelyn turvallisuus, vastuun osoittaminen.  
 - Yhdistää tekniset kontrollit, prosessit ja auditointivalmiudet kokonaisuudeksi.
+
+### `/transfers` – Kansainväliset tietosiirrot
+- EU/ETA-ulkopuoliset siirrot, SCC:t, poikkeukset, Schrems II.  
+- Painotus teknisiin ja organisatorisiin toimenpiteisiin siirtojen turvallistamiseksi.
 
 ---
 
