@@ -19,8 +19,6 @@ Tietoturvaloukkauksella tarkoitetaan tapahtumaa, joka johtaa henkilötietojen:
 - muuttumiseen tai
 - saatavuuden vaarantumiseen.
 
-Määritelmä kattaa sekä tekniset että organisatoriset poikkeamat, myös inhimilliset virheet.
-
 ## Turvatoimet ja ennaltaehkäisy Art. 32
 
 Organisaation tulee toteuttaa asianmukaiset tekniset ja organisatoriset toimenpiteet, kuten:
@@ -28,8 +26,6 @@ Organisaation tulee toteuttaa asianmukaiset tekniset ja organisatoriset toimenpi
 - lokitus ja valvonta,
 - varmuuskopiointi ja palautusmenettelyt,
 - henkilöstön ohjeistus ja koulutus.
-
-Turvatoimien riittävyys arvioidaan aina riskiperusteisesti.
 
 ## Ilmoitusvelvollisuus valvontaviranomaiselle Art. 33
 
@@ -44,13 +40,13 @@ Ilmoituksen tulee sisältää:
 
 Jos loukkaus aiheuttaa korkean riskin rekisteröityjen oikeuksille ja vapauksille, rekisteröidyille on ilmoitettava asiasta viipymättä selkeällä ja ymmärrettävällä tavalla.
 
-Ilmoitusta ei vaadita, jos:
+Ilmoitusta EI vaadita, mikäli:
 - tiedot on suojattu asianmukaisilla teknisillä toimenpiteillä (esim. vahva salaus),
 - myöhemmät toimet ovat poistaneet riskin.
 
 ## Valvonnan ja auditoinnin keskeiset tarkastuskohteet
 
-Viranomainen, asiantuntija sekä auditoija kiinnittävät erityisesti huomiota seuraaviin seikkoihin:
+Kiinnitä erityisesti huomiota seuraaviin seikkoihin:
 
 - Onko tietoturvaloukkausten tunnistamiselle selkeä ja dokumentoitu prosessi  
 - Toteutuuko 72 tunnin ilmoitusvelvollisuus käytännössä  
