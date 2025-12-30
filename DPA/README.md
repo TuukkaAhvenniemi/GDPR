@@ -11,7 +11,7 @@
 - Määrittelee, että käsittelijä voi käyttää alihankkijoita vain rekisterinpitäjän luvalla.  
 - Selventää ketjuvastuun periaatteen, jossa jokainen sopimusosapuoli on vastuussa omasta roolistaan tietosuojan toteutumisessa.  
 
-### Artikla 32 – Tietoturvatoimet (linkittyy TOMs-kansioon)
+### Artikla 32 – Tietoturvatoimet
 - Edellyttää asianmukaisia teknisiä ja organisatorisia toimenpiteitä (TOMs) henkilötietojen suojaamiseksi.  
 - Linkittyy käytännön kontrollien ja riskienhallinnan toteutukseen.  
 - Perusta auditoinneille ja tietoturvaloukkauksien ehkäisylle.
