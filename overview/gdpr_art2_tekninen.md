@@ -54,6 +54,7 @@ Artikla 2 asettaa **ainesoveltamisalan reunaehdot teknisille toteutuksille**:
 
 ## Aineellisen soveltamisalan visuaalinen flowchart
 
+```mermaid
 flowchart TD
 A[Automatisoitu?] -->|Kyllä| B[Henkilökohtaiset tai kotitalous?]
 A -->|Ei| C[Rekisterijärjestelmät]
