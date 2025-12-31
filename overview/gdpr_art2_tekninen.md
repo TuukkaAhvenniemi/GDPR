@@ -22,7 +22,7 @@ b) jota suorittavat jäsenvaltiot toteuttaessaan SEU V osaston 2 luvun soveltami
 
 c) jonka luonnollinen henkilö suorittaa yksinomaan henkilökohtaisessa tai kotitalouttaan koskevassa toiminnassa;  
 
-(18) Esimerkiksi kirjeenvaihto ja sosiaalinen verkostoituminen ilman ammatillista tai kaupallista yhteyttä eivät kuulu soveltamisalaan.  
+**(18)** Esimerkiksi kirjeenvaihto ja sosiaalinen verkostoituminen ilman ammatillista tai kaupallista yhteyttä eivät kuulu soveltamisalaan.  
 **Teknisesti tämä tarkoittaa, että tietosuoja‑arkkitehtuurin ei tarvitse kohdistua puhtaasti henkilökohtaiseen dataan, mutta palveluntarjoajien järjestelmien tulee olla yhteensopivia GDPR:n kanssa.**
 
 d) jota toimivaltaiset viranomaiset suorittavat rikosten ennalta estämistä, tutkintaa, paljastamista tai rikosoikeudellisten seuraamusten täytäntöönpanoa varten (mukaan lukien julkisen turvallisuuden uhkien käsittely);  
