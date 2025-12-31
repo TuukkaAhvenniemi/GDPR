@@ -14,9 +14,6 @@ Hyvin toteutettu DPIA osoittaa kypsää tietosuojahallintaa ja toimii suojana se
 - Vaatii järjestelmällisen arvioinnin käsittelyn luonteesta, laajuudesta, asiayhteydestä ja tarkoituksista.
 - Edellyttää sekä teknisten että organisatoristen riskien arviointia ja hallintatoimenpiteitä.
 
-**Keskeinen asiantuntijanäkemys:**  
-DPIA ei ole lomake, vaan jatkuva riskipohjainen prosessi, jota päivitetään käsittelyn muuttuessa.
-
 ### Artikla 36 – Ennakkokuuleminen valvontaviranomaisen kanssa
 - Soveltuu tilanteisiin, joissa tunnistettuja korkeita riskejä ei voida riittävästi lieventää.
 - Velvoittaa ottamaan yhteyttä valvontaviranomaiseen ennen käsittelyn aloittamista.
