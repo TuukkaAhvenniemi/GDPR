@@ -55,13 +55,13 @@ Artikla 2 asettaa **ainesoveltamisalan reunaehdot teknisille toteutuksille**:
 ## Aineellisen soveltamisalan visuaalinen flowchart
 
 flowchart TD
-    A[Automatisoitu?] -->|Kyllä| B[Henkilökohtaiset tai kotitalous?]
-    A -->|Ei| C[Rekisterijärjestelmät]
-    C -->|Kyllä| B
-    C -->|Ei| D[Ei GDPR:n soveltamisalaa]
-    B -->|Ei| E[Rikosoikeus / turvallisuus / ulkopolitiikka?]
-    B -->|Kyllä| D
-    E -->|Ei| F[GDPR:n soveltamisalaan]
-    E -->|Kyllä| D
+A[Automatisoitu?] -->|Kyllä| B[Henkilökohtaiset tai kotitalous?]
+A -->|Ei| C[Rekisterijärjestelmät]
+C -->|Kyllä| B
+C -->|Ei| D[Ei GDPR:n soveltamisalaa]
+B -->|Ei| E[Rikosoikeus / turvallisuus / ulkopolitiikka?]
+B -->|Kyllä| D
+E -->|Ei| F[GDPR:n soveltamisalaan]
+E -->|Kyllä| D
 
 
