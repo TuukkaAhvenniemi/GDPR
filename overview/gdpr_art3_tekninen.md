@@ -25,3 +25,27 @@ b) **Rekisteröityjen käyttäytymisen seurantaan**, siltä osin kuin käyttäyt
 - **Sijoittautumisen ja toimipaikan todentaminen on keskeistä datan hallinnassa ja järjestelmäarkkitehtuurissa.**  
 - **Käyttäytymisen seuranta ja profilointi unionin alueella määrittelevät GDPR:n soveltamisen laajuuden.**  
 - **Palvelujen tarjoamiseen liittyvät tekniset järjestelyt ja datavirrat tulee suunnitella siten, että tietosuoja toteutuu kaikissa käsittelyprosesseissa.**
+
+---
+
+## GDPR – Artikla 3 – Alueellisen soveltamisalan tekninen päätöspuu
+
+```mermaid
+
+flowchart TD
+    A[Henkilötietojen käsittely] --> B{[Rekisterinpitäjä sijoittautunut unioniin?]}
+    B -- Kyllä --> C[Soveltuu kaikkiin käsittelyihin unionissa]
+    B -- Ei --> D{[Käsittely liittyy tavaroiden/palvelujen tarjoamiseen unionissa?]}
+    D -- Kyllä --> E[Soveltuu unionin rekisteröityihin]
+    D -- Ei --> F{[Käsittely liittyy käyttäytymisen seurantaan unionissa?]}
+    F -- Kyllä --> G[Soveltuu unionin rekisteröityihin]
+    F -- Ei --> H{[Toimipaikka kansainvälisen julkisoikeuden nojalla?]}
+    H -- Kyllä --> I[Soveltuu rekisterinpitäjään, joka ei ole sijoittautunut unioniin]
+    H -- Ei --> J[GDPR ei sovellu]
+
+    style C fill:#DFF0D8,stroke:#333,stroke-width:2px
+    style E fill:#D9EDF7,stroke:#333,stroke-width:2px
+    style G fill:#D9EDF7,stroke:#333,stroke-width:2px
+    style I fill:#FCF8E3,stroke:#333,stroke-width:2px
+    style J fill:#F2DEDE,stroke:#333,stroke-width:2px
+
