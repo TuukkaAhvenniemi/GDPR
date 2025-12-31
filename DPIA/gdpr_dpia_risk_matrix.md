@@ -10,12 +10,12 @@ Tämä matriisi havainnollistaa riskien vakavuuden ja todennäköisyyden arvioin
 %% Teksti mustana
 
 graph LR
-    A1[Low x Low\nEsim: satunnainen anonymisoitu data-analyysi]:::low --> A2[Low x Medium\ Vähäinen henkilötietojen käsittely sisäisessä raportissa]:::low
-    A2 --> A3[Low x High\ Vanha asiakastietokanta testikäytössä]:::medium
-    A3 --> A4[Low x Very High\ Arkistoidut henkilötiedot projektiarkistossa]:::medium
-    A4 --> A5[Low x Critical\ Poikkeuksellinen manuaalinen tietojen käsittely]:::high
+    A1[Low x Low – Satunnainen anonymisoitu data-analyysi]:::low --> A2[Low x Medium – Vähäinen henkilötietojen käsittely sisäisessä raportissa]:::low
+    A2 --> A3[Low x High – Vanha asiakastietokanta testikäytössä]:::medium
+    A3 --> A4[Low x Very High – Arkistoidut henkilötiedot projektiarkistossa]:::medium
+    A4 --> A5[Low x Critical – Poikkeuksellinen manuaalinen tietojen käsittely]:::high
 
-    B1[Medium x Low\nEsim: sisäinen henkilöstöraportti ei arkaluontoista dataa]:::low --> B2[Medium x Medium\nEsim: sähköpostitse lähetettävä asiakastieto]:::medium
+    B1[Medium x Low – Sisäinen henkilöstöraportti ei arkaluontoista dataa]:::low --> B2[Medium x Medium – Sähköpostitse lähetettävä asiakastieto]:::medium
     B2 --> B3[Medium x High\nEsim: asiakastietojen yhdistäminen analytiikkaan]:::medium
     B3 --> B4[Medium x Very High\nEsim: terveystietojen käsittely ilman salattua kanavaa]:::high
     B4 --> B5[Medium x Critical\nEsim: henkilötietojen laajamittainen siirto EU:n ulkopuolelle]:::critical
