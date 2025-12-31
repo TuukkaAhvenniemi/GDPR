@@ -19,28 +19,22 @@
 - Selventää keskeiset käsitteet: rekisteröity, henkilötiedot, käsittely, rekisterinpitäjä ja käsittelijä.
 - Perusta kaikelle jatkokäsittelylle ja sopimustulkinnalle.
 
-### Artikla 5 – Käsittelyn periaatteet
-- Henkilötietoja tulee käsitellä lainmukaisesti, oikeudenmukaisesti ja läpinäkyvästi.
-- Kerätyt tiedot tulee rajata tarpeelliseen ja säilyttää vain niin kauan kuin on tarpeen.
-- Ohjaa käytännön tietoturvakontrolleja, prosessien dokumentointia ja vastuuketjujen hallintaa.
+---
+### Otsikko
 
-### Artikla 6 – Käsittelyn lainmukaisuus
-- Määrittelee, millä perusteilla henkilötietoja voidaan käsitellä: suostumus, sopimus, lakisääteinen velvoite tai muu laillinen peruste.
-- Perusta rekisterinpitäjän ja käsittelijän käytännön toimille ja auditointivalmiudelle.
+```mermaid
 
-### Artikla 7 – Suostumus
-- Määrittelee suostumuksen ehdot: sen tulee olla vapaaehtoinen, yksiselitteinen, tietoinen ja peruutettavissa.
-- Vaikuttaa lomakkeiden, verkkopalvelujen ja prosessien toteutukseen.
+flowchart TD
 
-### Artikla 12 – Läpinäkyvä tiedottaminen
-- Edellyttää, että rekisteröidylle annetaan selkeää ja helposti saatavilla olevaa tietoa henkilötietojen käsittelystä.
-- Ohjaa tiedottamisen käytäntöjä, tietosuojailmoituksia ja viestintäkanavia.
-
-### Artikla 24 – Rekisterinpitäjän vastuu
-- Korostaa rekisterinpitäjän velvollisuutta osoittaa ja varmistaa GDPR:n noudattaminen.
-- Perusta riskienhallinnalle, auditoinneille ja ketjuvastuun hallinnalle.
-
-### Artikla 25 – Sisäänrakennettu ja oletusarvoinen tietosuoja (Privacy by Design & Default)
-- Edellyttää, että tietosuojaominaisuudet sisällytetään jo prosessien ja järjestelmien suunnitteluvaiheessa.
-- Suoraan yhteydessä teknisiin ja organisatorisiin toimenpiteisiin (TOMs).
-- Varmistaa, että tietosuoja ei ole lisäosa vaan osa organisaation normaaleja toimintatapoja.
+A["GDPR Artikla 1<br/>Tarkoitus ja tavoitteet"] --> B["GDPR Artikla 2<br/>Soveltamisala"]
+B --> C["Kuuluuko toiminta soveltamisalaan?"]
+C -->|Kyllä| D["GDPR Artikla 3<br/>Alueellinen soveltaminen"]
+C -->|Ei| X["Ei GDPR-vaatimuksia<br/>Perustason tietoturva"]
+D --> E["EU:ssa tai EU-kohdistus"]
+E --> F["GDPR Artikla 4<br/>Keskeiset määritelmät"]
+F --> G["Rekisterinpitäjä ja käsittelijä<br/>tunnistettu"]
+F --> H["Henkilötiedot ja käsittely<br/>tunnistettu"]
+G --> I["Vastuut ja velvoitteet<br/>kohdistettavissa"]
+H --> J["Tekniset ja organisatoriset<br/>toimenpiteet määriteltävissä"]
+I --> K["Siirtymä operatiivisiin kokonaisuuksiin<br/>DPIA · TOMs · RoPA · DPA"]
+J --> K
