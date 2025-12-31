@@ -1,4 +1,4 @@
-# GDPR DPIA – Riskimatriisi
+# GDPR (DPIA) – Riskimatriisi
 
 Tämä matriisi havainnollistaa riskien vakavuuden ja todennäköisyyden arviointia DPIA:ssa.
 
@@ -6,7 +6,8 @@ Tämä matriisi havainnollistaa riskien vakavuuden ja todennäköisyyden arvioin
 %% Mermaid riskimatriisi, 5x5
 %% Vaakasuora: Todennäköisyys (Low->High)
 %% Pystysuora: Vaikutus (Low->High)
-%% Värit: Low=vihreä, Medium=keltainen, High=oranssi, Critical=punainen
+%% Värit: Low=tummanvihreä, Medium=tummankeltainen, High=tummanoranssi, Critical=tumma punainen
+%% Teksti mustana
 
 graph LR
     A1[Low x Low]:::low --> A2[Low x Medium]:::low
@@ -29,7 +30,7 @@ graph LR
     D3 --> D4[Very High x Very High]:::critical
     D4 --> D5[Very High x Critical]:::critical
 
-    classDef low fill:#9f9,stroke:#333,stroke-width:1px
-    classDef medium fill:#fc9,stroke:#333,stroke-width:1px
-    classDef high fill:#f99,stroke:#333,stroke-width:1px
-    classDef critical fill:#c00,stroke:#333,stroke-width:1px
+    classDef low fill:#006400,stroke:#333,stroke-width:1px,color:#000
+    classDef medium fill:#DAA520,stroke:#333,stroke-width:1px,color:#000
+    classDef high fill:#FF8C00,stroke:#333,stroke-width:1px,color:#000
+    classDef critical fill:#8B0000,stroke:#333,stroke-width:1px,color:#000
