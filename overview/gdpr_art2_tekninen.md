@@ -13,19 +13,19 @@
 
 **2.** Tätä asetusta ei sovelleta henkilötietojen käsittelyyn:
 
-- a) jota suoritetaan sellaisen toiminnan yhteydessä, joka ei kuulu unionin lainsäädännön soveltamisalaan;  
+a) jota suoritetaan sellaisen toiminnan yhteydessä, joka ei kuulu unionin lainsäädännön soveltamisalaan;  
 
 **(16)** Tämä ei koske kansallista turvallisuutta tai unionin yhteiseen ulko‑ ja turvallisuuspolitiikkaan liittyviä toimia.  
 **Teknisesti tämä tarkoittaa, että nämä poikkeukset on huomioitava järjestelmien suunnittelussa siten, että GDPR‑kontrollit eivät estä kyseisiä toimintoja tarpeettomasti.**
 
-- b) jota suorittavat jäsenvaltiot toteuttaessaan SEU V osaston 2 luvun soveltamisalaan kuuluvaa toimintaa;
+b) jota suorittavat jäsenvaltiot toteuttaessaan SEU V osaston 2 luvun soveltamisalaan kuuluvaa toimintaa;
 
-- c) jonka luonnollinen henkilö suorittaa yksinomaan henkilökohtaisessa tai kotitalouttaan koskevassa toiminnassa;  
+c) jonka luonnollinen henkilö suorittaa yksinomaan henkilökohtaisessa tai kotitalouttaan koskevassa toiminnassa;  
 
 (18) Esimerkiksi kirjeenvaihto ja sosiaalinen verkostoituminen ilman ammatillista tai kaupallista yhteyttä eivät kuulu soveltamisalaan.  
 **Teknisesti tämä tarkoittaa, että tietosuoja‑arkkitehtuurin ei tarvitse kohdistua puhtaasti henkilökohtaiseen dataan, mutta palveluntarjoajien järjestelmien tulee olla yhteensopivia GDPR:n kanssa.**
 
-- d) jota toimivaltaiset viranomaiset suorittavat rikosten ennalta estämistä, tutkintaa, paljastamista tai rikosoikeudellisten seuraamusten täytäntöönpanoa varten (mukaan lukien julkisen turvallisuuden uhkien käsittely);  
+d) jota toimivaltaiset viranomaiset suorittavat rikosten ennalta estämistä, tutkintaa, paljastamista tai rikosoikeudellisten seuraamusten täytäntöönpanoa varten (mukaan lukien julkisen turvallisuuden uhkien käsittely);  
 
 **(19)** Tällainen data‑käsittely on säädetty erillisellä unionin oikeudella.  
 **Teknisesti tämä tarkoittaa, että viranomaisjärjestelmät voivat käyttää omia sääntöjään, mutta niiden täytyy integroida turvallisuus ja suojaukset asianmukaisesti, jos data siirtyy GDPR:n soveltamisalaan.**
@@ -35,7 +35,7 @@
 **(17)** Tämä tulee mukauttaa tämän asetuksen periaatteiden mukaisesti.  
 **Teknisesti tämä edellyttää yhdenmukaistettuja valvontamekanismeja ja auditointia koko järjestelmässä.**
 
-4. Tällä asetuksella ei rajoiteta direktiivin 2000/31/EY soveltamista, erityisesti välittäjinä toimivien palveluntarjoajien vastuuta koskevia säännöksiä.  
+**4.** Tällä asetuksella ei rajoiteta direktiivin 2000/31/EY soveltamista, erityisesti välittäjinä toimivien palveluntarjoajien vastuuta koskevia säännöksiä.  
 
 **(21)** Direktiivin tarkoituksena on varmistaa sisämarkkinoiden moitteeton toiminta.  
 **Teknisesti tämä vaikuttaa siihen, miten välittäjäpalvelut toteutetaan, mutta ei poista tarvetta tietosuojan perustekijöille.**
