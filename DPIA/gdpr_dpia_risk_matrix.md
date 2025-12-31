@@ -20,7 +20,7 @@ graph LR
     B3 --> B4[Medium x Very High –> Terveystietojen käsittely ilman salattua kanavaa]:::high
     B4 --> B5[Medium x Critical –> Henkilötietojen laajamittainen siirto EU:n ulkopuolelle]:::critical
 
-    C1[High x Low –> Henkilötietojen käsittely pienessä tiimissä, rajoitettu pääsy]:::medium --> C2[High x Medium\nEsim: henkilöstön suoritustietojen käsittely]:::medium
+    C1[High x Low –> Henkilötietojen käsittely pienessä tiimissä, rajoitettu pääsy]:::medium --> C2[High x Medium –> Henkilöstön suoritustietojen käsittely]:::medium
     C2 --> C3[High x High –> Finanssidata yhdistettynä henkilötietoihin]:::high
     C3 --> C4[High x Very High –> Arkaluonteisten tietojen jakaminen ulkopuoliselle alihankkijalle]:::critical
     C4 --> C5[High x Critical –> Henkilötietojen rikolliseen käyttöön altistava järjestelmävirhe]:::critical
