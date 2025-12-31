@@ -20,7 +20,7 @@
 - Perusta kaikelle jatkokäsittelylle ja sopimustulkinnalle.
 
 ---
-### Otsikko
+### GDPR:n perusta ja soveltamislogiikka – Tekninen kokonaiskuva
 
 ```mermaid
 
