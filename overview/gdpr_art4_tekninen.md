@@ -64,4 +64,26 @@ Tässä asetuksessa tarkoitetaan:
 - **Pseudonymisointi ja tietojen anonymisointi** ovat keskeisiä riskienhallintamenetelmiä.  
 - **Tietoturvaloukkausten hallinta** ja seuranta ovat olennainen osa GDPR-yhteensopivaa toimintaa.  
 - **Biometriset ja geneettiset tiedot** vaativat erityisiä **teknisiä ja organisatorisia turvatoimia**.  
-- **Teknologian ja välineiden hyödyntäminen päätoimipaikoissa** ratkaisee käytännössä tietosuojan toteutuksen.  
+- **Teknologian ja välineiden hyödyntäminen päätoimipaikoissa** ratkaisee käytännössä tietosuojan toteutuksen.
+
+---
+
+## GDPR Artikla 4 – Teknisen asiantuntijan flowchart
+
+```mermaid
+flowchart TD
+    A[Henkilötiedot] --> B[Käsittely]
+    B --> C[Automaattinen käsittely]
+    B --> D[Manuaalinen käsittely]
+    C --> E[Profilointi (arvioidaan henkilökohtaisia ominaisuuksia)]
+    C --> F[Pseudonymisointi]
+    F --> G[Tietojen anonymisointi]
+    D --> H[Tallennus, järjestäminen, haku]
+    D --> I[Tietojen luovutus/siirto]
+    H --> J[Tietoturva ja pääsynhallinta]
+    I --> J
+    E --> J
+    G --> J
+    J --> K[Päätoimipaikan tekniset välineet ja teknologia]
+    K --> L[GDPR-yhteensopiva käsittely]
+
