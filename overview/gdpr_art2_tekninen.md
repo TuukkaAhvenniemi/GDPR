@@ -54,20 +54,14 @@ Artikla 2 asettaa **ainesoveltamisalan reunaehdot teknisille toteutuksille**:
 
 ## Aineellisen soveltamisalan visuaalinen flowchart
 
-```mermaid
 flowchart TD
-    A["Automatisoitu käsittely?"] -->|Kyllä| B["Henkilökohtaiset tai kotitaloutta koskevat toiminnot?"]
-    A -->|Ei| C["Rekisterijärjestelmät"]
-
+    A[Automatisoitu?] -->|Kyllä| B[Henkilökohtaiset tai kotitalous?]
+    A -->|Ei| C[Rekisterijärjestelmät]
     C -->|Kyllä| B
-    C -->|Ei| D["Ei GDPR:n aineellisen soveltamisalan piirissä"]
-
-    B -->|Ei| E["Rikosoikeudellinen käsittely, kansallinen turvallisuus, ulkopolitiikka tai soveltamisalueen ulkopuolella?"]
+    C -->|Ei| D[Ei GDPR:n soveltamisalaa]
+    B -->|Ei| E[Rikosoikeus / turvallisuus / ulkopolitiikka?]
     B -->|Kyllä| D
-
-    E -->|Ei| F["GDPR:n aineellisen soveltamisalan piirissä"]
+    E -->|Ei| F[GDPR:n soveltamisalaan]
     E -->|Kyllä| D
-markdown
-Copy code
 
 
