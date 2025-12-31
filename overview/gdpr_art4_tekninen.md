@@ -68,7 +68,7 @@ Tässä asetuksessa tarkoitetaan:
 
 ---
 
-## GDPR Artikla 4 – Teknisen asiantuntijan flowchart
+## GDPR – Artikla 4 – Teknisen asiantuntijan flowchart
 
 ```mermaid
 flowchart TD
