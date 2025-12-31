@@ -7,7 +7,7 @@ Tämä matriisi havainnollistaa riskien vakavuuden ja todennäköisyyden arvioin
 %% Vaakasuora: Todennäköisyys (Low->High)
 %% Pystysuora: Vaikutus (Low->High)
 %% Värit: Low=tummanvihreä, Medium=tummankeltainen, High=tummanoranssi, Critical=tumma punainen
-%% Teksti mustana, mukana esimerkkilause
+%% Teksti mustana
 
 graph LR
     A1[Low x Low\nEsim: satunnainen anonymisoitu data-analyysi]:::low --> A2[Low x Medium\nEsim: vähäinen henkilötietojen käsittely sisäisessä raportissa]:::low
@@ -34,4 +34,3 @@ graph LR
     classDef medium fill:#DAA520,stroke:#333,stroke-width:1px,color:#000
     classDef high fill:#FF8C00,stroke:#333,stroke-width:1px,color:#000
     classDef critical fill:#8B0000,stroke:#333,stroke-width:1px,color:#000
-Tämä antaa matriisille heti käytännön kontekstin – katsomalla laatikkoa näkee, millainen riskitapaus siihen
