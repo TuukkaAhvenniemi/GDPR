@@ -44,3 +44,10 @@ flowchart TD
     H -- Ei --> J["GDPR ei sovellu"]
 
 
+    style C fill:#DFF0D8,stroke:#333,stroke-width:2px
+    style E fill:#D9EDF7,stroke:#333,stroke-width:2px
+    style G fill:#D9EDF7,stroke:#333,stroke-width:2px
+    style I fill:#FCF8E3,stroke:#333,stroke-width:2px
+    style J fill:#F2DEDE,stroke:#333,stroke-width:2px
+
+
