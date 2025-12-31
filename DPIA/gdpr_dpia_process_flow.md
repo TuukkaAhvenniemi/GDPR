@@ -1,4 +1,4 @@
-# GDPR DPIA – Prosessikaavio
+# GDPR (DPIA) – Prosessikaavio
 
 Tämä kaavio havainnollistaa tietosuojavaikutusten arvioinnin (DPIA) keskeiset vaiheet, riskienhallinnan ja dokumentoinnin.
 
