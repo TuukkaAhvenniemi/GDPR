@@ -1,60 +1,64 @@
-# Tietosuojavaikutusten arviointi (DPIA)
+# GDPR (DPIA) – Tietosuojavaikutusten arviointi 
 
-Tietosuojavaikutusten arviointi (Data Protection Impact Assessment, DPIA) on GDPR:n keskeinen riskienhallintamekanismi silloin,
-kun henkilötietojen käsittely aiheuttaa korkean riskin rekisteröityjen oikeuksille ja vapauksille. DPIA yhdistää juridisen vaatimuksen,
-teknisen riskianalyysin ja liiketoiminnallisen päätöksenteon.
+Tietosuojavaikutusten arviointi (Data Protection Impact Assessment, DPIA) on GDPR:n keskeinen riskienhallintamekanismi silloin, kun henkilötietojen käsittely aiheuttaa korkean riskin rekisteröityjen oikeuksille ja vapauksille. DPIA yhdistää juridisen vaatimuksen, teknisen riskianalyysin ja liiketoiminnallisen päätöksenteon.
 
-Hyvin toteutettu DPIA osoittaa kypsää tietosuojahallintaa ja toimii suojana sekä rekisteröidyille että organisaatiolle.
+Hyvin toteutettu DPIA ei ole pelkkä lomake – se on jatkuva, systemaattinen prosessi, joka osoittaa kypsää tietosuojahallintaa ja toimii suojana sekä rekisteröidyille että organisaatiolle.
 
-## Sovellettavat artiklat
+## Sovellettavat dokumentoidut ja julkaistut artikkelit
 
-### Artikla 35 – Tietosuojavaikutusten arviointi (DPIA)
+### [Art. 35 – Tietosuojavaikutusten arviointi (DPIA)](gdpr_dpia_art35.md)
 - Määrittelee tilanteet, joissa DPIA on pakollinen ennen käsittelyn aloittamista.
 - Korostaa ennakoivaa riskien tunnistamista, ei jälkikäteistä reagointia.
-- Vaatii järjestelmällisen arvioinnin käsittelyn luonteesta, laajuudesta, asiayhteydestä ja tarkoituksista.
-- Edellyttää sekä teknisten että organisatoristen riskien arviointia ja hallintatoimenpiteitä.
+- Edellyttää systemaattista arviointia käsittelyn luonteesta, laajuudesta, asiayhteydestä ja tarkoituksista.
+- Sisältää tekniset ja organisatoriset lieventävät toimenpiteet sekä jäännösriskin hyväksynnän ja dokumentoinnin.
 
-### Artikla 36 – Ennakkokuuleminen valvontaviranomaisen kanssa
+### [Art. 36 – Ennakkokuuleminen valvontaviranomaisen kanssa](gdpr_dpia_art36.md)
 - Soveltuu tilanteisiin, joissa tunnistettuja korkeita riskejä ei voida riittävästi lieventää.
 - Velvoittaa ottamaan yhteyttä valvontaviranomaiseen ennen käsittelyn aloittamista.
 - Edellyttää kattavaa dokumentaatiota, teknisten kontrollien kuvausta ja päätöksentekohistoriaa.
+- Asiakirjassa kuvataan myös viranomaisviestinnän ja auditointikierrosten dokumentointi.
 
-**Asiantuntijatason erot:**  
-- Kyky tunnistaa ajoissa, milloin riski on aidosti “residual risk”.  
-- Valmius perustella ratkaisut viranomaiselle teknisellä tai juridisella tasolla.
+### [Art. 29 – Henkilötietojen käsittelijä ja alaiset](gdpr_dpia_art29.md)
+- Määrittelee käsittelijöiden ja heidän alaistensa vastuut.
+- Kaikki henkilötietojen käsittely on tehtävä dokumentoitujen ohjeiden mukaisesti.
+- Alihankkijat ja prosessointiketju sitoutetaan samoihin ohjeisiin.
+- Yhdistyy DPIA-prosessiin riskienhallinnan, dokumentoinnin ja TOMs:n näkökulmasta.
+- Sisältää viranomaisviestinnän käytännöt ja mahdolliset tarkastukset:
+  - EU:n valvontaviranomainen (DPA)
+  - Kansalliset tietosuojaviranomaiset
+  - Sisäiset auditointiryhmät
+  - Ulkoiset auditoijat ja sertifiointielimet (ISO 27701 / ISO 27001)
 
-### Art. 29 Working Party / EDPB – (viitekehys)
-- Tarjoavat käytännön tulkintaohjeet DPIA:n tekemiseen.
-- Sisältävät esimerkkejä korkean riskin käsittelystä (profilointi, laajamittainen seuranta, erityiset henkilötietoryhmät).
-- Määrittelevät arviointikriteerejä, joita viranomaiset käyttävät tarkastuksissa.
+### [ISO/IEC 27701 – PII-prosessoreiden ohjeistus](gdpr_dpia_iso27701.md)
+- Laajentaa ISO/IEC 27002 ohjeistusta henkilötietojen prosessoreille.
+- Määrittelee dokumentoidut prosessit, sopimusvelvoitteet ja tekniset ratkaisut.
+- Tukee Art. 29, 35 ja 36 soveltamista käytännössä.
+- Integroi TOMs:n tekniset ja organisatoriset kontrollit osaksi DPIA-prosessia.
+- Tarjoaa auditoinnin ja vaatimustenmukaisuuden osoittamisen viitekehyksen.
 
-**Huippuasiantuntijan tunnusmerkki:**  
-DPIA tehdään EDPB:n ohjeita vasten, ei pelkästään artiklatekstin perusteella.
+## DPIA:n keskeiset vaiheet ja asiantuntijan näkökulma
 
-## DPIA:n keskeiset vaiheet käytännössä
+- Käsittelytoimien systemaattinen kuvaus (mitä, miksi, kenelle, kuinka kauan)
+- Riskien tunnistaminen rekisteröidyn näkökulmasta ja prosessointiketjun tasolla
+- Riskien todennäköisyyden ja vakavuuden arviointi
+- Teknisten ja organisatoristen lieventävien toimien määrittely
+- Jäännösriskin hyväksyntä ja dokumentointi
+- Päätösten ja toimenpiteiden näyttö viranomaiselle (DPIA-raportit, RoPA, TOMs, auditointi, koulutustodistukset)
 
-- Käsittelytoimien systemaattinen kuvaus (mitä, miksi, kenelle, kuinka kauan).  
-- Riskien tunnistaminen rekisteröidyn näkökulmasta, ei vain organisaation.  
-- Riskien todennäköisyyden ja vakavuuden arviointi.  
-- Teknisten ja organisatoristen lieventävien toimenpiteiden määrittely.  
-- Jäännösriskin arviointi ja hyväksyntä.  
-- Dokumentointi ja hyväksyntä osana hallintomallia.
+### Asiantuntijatason erot
 
-## Mihin kiinnittää huomiota
+**Perustietäjä**
+- Tunnistaa tilanteet, joissa DPIA on pakollinen
+- Täyttää DPIA-mallipohjan järjestelmällisesti
+- Dokumentoi käsittelytoimet ja riskien lieventämistoimet muodollisesti
 
-- Onko DPIA tehty ennen käsittelyn aloittamista.  
-- Perustuuko arviointi todellisiin riskeihin vai geneerisiin oletuksiin.  
-- Ovatko lieventävät toimet konkreettisia ja toteutettuja.  
-- Onko DPIA päivitetty, kun käsittely on muuttunut.  
-- Onko päätöksenteko ja vastuunjako dokumentoitu.
-
-## Miksi DPIA erottaa asiantuntijan perustietäjästä
-
-**Perustietäjä:**  
-- Tietää milloin DPIA vaaditaan.  
-- Täyttää mallipohjan.
-
-**Asiantuntija:**  
-- Ymmärtää riskin rekisteröidyn näkökulmasta.  
-- Kytkee DPIA:n tekniseen arkkitehtuuriin, tietoturvakontrolleihin ja liiketoimintapäätöksiin.  
-- Osaa puolustaa ratkaisut viranomaiselle.
+**Asiantuntija**
+- Riskien tunnistaminen rekisteröidyn näkökulmasta ja prosessointiketjun hallinta
+- Kytkee DPIA:n tekniseen arkkitehtuuriin, TOMs:iin ja liiketoimintapäätöksiin
+- Osaa puolustaa ratkaisut viranomaiselle
+- Näyttö ja dokumentointi kattavat:
+  - DPIA-raportit ja liitteet
+  - RoPA-kytkennät käsittelytoimiin
+  - TOMs-dokumentaatio: tekniset ja organisatoriset kontrollit
+  - Auditointi- ja testausraportit
+  - Henkilöstön koulutus- ja ohjeistustodistukset
