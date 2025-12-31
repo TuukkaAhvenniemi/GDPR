@@ -33,15 +33,15 @@ b) **Rekisteröityjen käyttäytymisen seurantaan**, siltä osin kuin käyttäyt
 ```mermaid
 
 flowchart TD
-    A[Henkilötietojen käsittely] --> B{[Rekisterinpitäjä sijoittautunut unioniin?]}
-    B -- Kyllä --> C[Soveltuu kaikkiin käsittelyihin unionissa]
-    B -- Ei --> D{[Käsittely liittyy tavaroiden/palvelujen tarjoamiseen unionissa?]}
-    D -- Kyllä --> E[Soveltuu unionin rekisteröityihin]
-    D -- Ei --> F{[Käsittely liittyy käyttäytymisen seurantaan unionissa?]}
-    F -- Kyllä --> G[Soveltuu unionin rekisteröityihin]
-    F -- Ei --> H{[Toimipaikka kansainvälisen julkisoikeuden nojalla?]}
-    H -- Kyllä --> I[Soveltuu rekisterinpitäjään, joka ei ole sijoittautunut unioniin]
-    H -- Ei --> J[GDPR ei sovellu]
+    A[Henkilötietojen käsittely] --> B{["Rekisterinpitäjä sijoittautunut unioniin?"]}
+    B -- Kyllä --> C["Soveltuu kaikkiin käsittelyihin unionissa"]
+    B -- Ei --> D{["Käsittely liittyy tavaroiden/palvelujen tarjoamiseen unionissa?"]}
+    D -- Kyllä --> E["Soveltuu unionin rekisteröityihin"]
+    D -- Ei --> F{["Käsittely liittyy käyttäytymisen seurantaan unionissa?"]}
+    F -- Kyllä --> G["Soveltuu unionin rekisteröityihin"]
+    F -- Ei --> H{["Toimipaikka kansainvälisen julkisoikeuden nojalla?"]}
+    H -- Kyllä --> I["Soveltuu rekisterinpitäjään, joka ei ole sijoittautunut unioniin"]
+    H -- Ei --> J["GDPR ei sovellu"]
 
     style C fill:#DFF0D8,stroke:#333,stroke-width:2px
     style E fill:#D9EDF7,stroke:#333,stroke-width:2px
