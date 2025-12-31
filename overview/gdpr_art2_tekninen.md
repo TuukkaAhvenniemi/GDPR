@@ -4,13 +4,13 @@
 **Tämä asetus ei koske oikeushenkilöiden henkilötietojen käsittelyä, kuten yritysten nimiä tai yhteystietoja.**  
 **Teknisen asiantuntijan näkökulmasta tämä tarkoittaa, että järjestelmät ja datavirrat on suunniteltava siten, että suojauksella ei ole vaikutusta juridisten henkilöiden tietoihin, vaan keskitytään luonnollisten henkilöiden dataan.**
 
-1. Tätä asetusta sovelletaan henkilötietojen käsittelyyn, joka on osittain tai kokonaan automaattista, sekä sellaisten henkilötietojen käsittelyyn muussa kuin automaattisessa muodossa, jotka muodostavat rekisterin osan tai joiden on tarkoitus muodostaa rekisterin osa.  
+1.Tätä asetusta sovelletaan henkilötietojen käsittelyyn, joka on osittain tai kokonaan automaattista, sekä sellaisten henkilötietojen käsittelyyn muussa kuin automaattisessa muodossa, jotka muodostavat rekisterin osan tai joiden on tarkoitus muodostaa rekisterin osa.  
 **Teknisen asiantuntijan kannalta tämä tarkoittaa, että automaattiset järjestelmät ja rekisterit on suunniteltava tietosuojaa noudattaen alusta alkaen.**
 
 (15) Vakavan väärinkäytösten riskin välttämiseksi luonnollisten henkilöiden suojelun olisi oltava **teknologianeutraalia** eli se ei saisi riippua käytetystä tekniikasta.  
 **Tietosuoja koskee sekä automaattista että manuaalista käsittelyä, jos tiedot kuuluvat rekisteriin.**
 
-2. Tätä asetusta ei sovelleta henkilötietojen käsittelyyn:
+2.Tätä asetusta ei sovelleta henkilötietojen käsittelyyn:
 
 - a) jota suoritetaan sellaisen toiminnan yhteydessä, joka ei kuulu unionin lainsäädännön soveltamisalaan;  
   (16) Tämä ei koske kansallista turvallisuutta tai unionin yhteiseen ulko‑ ja turvallisuuspolitiikkaan liittyviä toimia.  
