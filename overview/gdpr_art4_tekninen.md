@@ -72,18 +72,18 @@ Tässä asetuksessa tarkoitetaan:
 
 ```mermaid
 flowchart TD
-    A[Henkilötiedot] --> B[Käsittely]
-    B --> C[Automaattinen käsittely]
-    B --> D[Manuaalinen käsittely]
-    C --> E[Profilointi (arvioidaan henkilökohtaisia ominaisuuksia)]
-    C --> F[Pseudonymisointi]
-    F --> G[Tietojen anonymisointi]
-    D --> H[Tallennus, järjestäminen, haku]
-    D --> I[Tietojen luovutus/siirto]
-    H --> J[Tietoturva ja pääsynhallinta]
+    A["Henkilötiedot"] --> B["Käsittely"]
+    B --> C["Automaattinen käsittely"]
+    B --> D["Manuaalinen käsittely"]
+    C --> E["Profilointi"]
+    C --> F["Pseudonymisointi"]
+    F --> G["Anonymisointi"]
+    D --> H["Tallennus / järjestäminen / haku"]
+    D --> I["Tietojen luovutus / siirto"]
+    H --> J["Tietoturva & pääsynhallinta"]
     I --> J
     E --> J
     G --> J
-    J --> K[Päätoimipaikan tekniset välineet ja teknologia]
-    K --> L[GDPR-yhteensopiva käsittely]
+    J --> K["Päätoimipaikan tekniset välineet ja teknologia"]
+    K --> L["GDPR-yhteensopiva käsittely"]
 
