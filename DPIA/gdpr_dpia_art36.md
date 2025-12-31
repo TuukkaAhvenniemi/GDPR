@@ -1,4 +1,4 @@
-# Art. 35 – Tietosuojavaikutusten arviointi (DPIA)
+# GDPR – (DPIA) – Art. 35 – Tietosuojavaikutusten arviointi 
 
 ## Tarkoitus
 DPIA (Data Protection Impact Assessment) on GDPR:n keskeinen riskienhallintatyökalu, joka aktivoituu, kun henkilötietojen käsittely aiheuttaa korkean riskin rekisteröidyn oikeuksille ja vapauksille.
