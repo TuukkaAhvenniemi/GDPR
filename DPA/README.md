@@ -7,7 +7,7 @@
 - Sisältää vastuut, käsittelyn tarkoituksen, alihankkijat ja tietoturvavaatimukset.  
 - Perusta juridiselle varmuudelle ja operatiiviselle tietoturvatoiminnalle.
 
-### Artikla 28 (2,4) – Alihankkijat ja ketjuvastuu
+### Artikla 28 (2, 4) – Alihankkijat ja ketjuvastuu
 - Määrittelee, että käsittelijä voi käyttää alihankkijoita vain rekisterinpitäjän luvalla.  
 - Selventää ketjuvastuun periaatteen, jossa jokainen sopimusosapuoli on vastuussa omasta roolistaan tietosuojan toteutumisessa.  
 
