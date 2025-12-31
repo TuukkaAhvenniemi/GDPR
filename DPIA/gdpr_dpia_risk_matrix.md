@@ -15,20 +15,20 @@ graph LR
     A3 --> A4[Low x Very High –> Arkistoidut henkilötiedot projektiarkistossa]:::medium
     A4 --> A5[Low x Critical –> Poikkeuksellinen manuaalinen tietojen käsittely]:::high
 
-    B1[Medium x Low – Sisäinen henkilöstöraportti ei arkaluontoista dataa]:::low --> B2[Medium x Medium – Sähköpostitse lähetettävä asiakastieto]:::medium
+    B1[Medium x Low –> Sisäinen henkilöstöraportti ei arkaluontoista dataa]:::low --> B2[Medium x Medium – Sähköpostitse lähetettävä asiakastieto]:::medium
     B2 --> B3[Medium x High –> Asiakastietojen yhdistäminen analytiikkaan]:::medium
     B3 --> B4[Medium x Very High –> Terveystietojen käsittely ilman salattua kanavaa]:::high
     B4 --> B5[Medium x Critical –> Henkilötietojen laajamittainen siirto EU:n ulkopuolelle]:::critical
 
-    C1[High x Low\nEsim: henkilötietojen käsittely pienessä tiimissä, rajoitettu pääsy]:::medium --> C2[High x Medium\nEsim: henkilöstön suoritustietojen käsittely]:::medium
-    C2 --> C3[High x High\nEsim: finanssidata yhdistettynä henkilötietoihin]:::high
-    C3 --> C4[High x Very High\nEsim: arkaluonteisten tietojen jakaminen ulkopuoliselle alihankkijalle]:::critical
-    C4 --> C5[High x Critical\nEsim: henkilötietojen rikolliseen käyttöön altistava järjestelmävirhe]:::critical
+    C1[High x Low –> Henkilötietojen käsittely pienessä tiimissä, rajoitettu pääsy]:::medium --> C2[High x Medium\nEsim: henkilöstön suoritustietojen käsittely]:::medium
+    C2 --> C3[High x High –> Finanssidata yhdistettynä henkilötietoihin]:::high
+    C3 --> C4[High x Very High –> Arkaluonteisten tietojen jakaminen ulkopuoliselle alihankkijalle]:::critical
+    C4 --> C5[High x Critical –> Henkilötietojen rikolliseen käyttöön altistava järjestelmävirhe]:::critical
 
-    D1[Very High x Low\nEsim: testidata sisältää suppeasti arkaluontoisia tietoja]:::medium --> D2[Very High x Medium\nEsim: sisäinen HR-järjestelmä, riskinä henkilötietojen väärinkäyttö]:::high
-    D2 --> D3[Very High x High\nEsim: terveystietojen yhdistäminen muiden tietojoukkojen kanssa ilman suostumusta]:::critical
-    D3 --> D4[Very High x Very High\nEsim: kriittiset asiakas- tai potilastiedot päässeet ulkopuolisille]:::critical
-    D4 --> D5[Very High x Critical\nEsim: koko järjestelmän tietovuoto, miljoonien henkilötietojen paljastuminen]:::critical
+    D1[Very High x Low –> Testidata sisältää suppeasti arkaluontoisia tietoja]:::medium --> D2[Very High x Medium –> Sisäinen HR-järjestelmä, riskinä henkilötietojen väärinkäyttö]:::high
+    D2 --> D3[Very High x High –> Terveystietojen yhdistäminen muiden tietojoukkojen kanssa ilman suostumusta]:::critical
+    D3 --> D4[Very High x Very High –> Kriittiset asiakas- tai potilastiedot päässeet ulkopuolisille]:::critical
+    D4 --> D5[Very High x Critical –> Koko järjestelmän tietovuoto, miljoonien henkilötietojen paljastuminen]:::critical
 
     classDef low fill:#006400,stroke:#333,stroke-width:1px,color:#000
     classDef medium fill:#DAA520,stroke:#333,stroke-width:1px,color:#000
