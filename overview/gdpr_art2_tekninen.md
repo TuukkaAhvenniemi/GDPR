@@ -1,6 +1,7 @@
 # GDPR – Artikla 2 – Aineellinen soveltamisala
 
 (14) Tämän asetuksen tarjoaman suojelun olisi koskettava luonnollisia henkilöitä heidän henkilötietojensa käsittelyssä.  
+
 **Tämä asetus ei koske oikeushenkilöiden henkilötietojen käsittelyä, kuten yritysten nimiä tai yhteystietoja.**  
 **Teknisen asiantuntijan näkökulmasta tämä tarkoittaa, että järjestelmät ja datavirrat on suunniteltava siten, että suojauksella ei ole vaikutusta juridisten henkilöiden tietoihin, vaan keskitytään luonnollisten henkilöiden dataan.**
 
