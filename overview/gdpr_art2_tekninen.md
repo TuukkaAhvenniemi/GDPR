@@ -46,7 +46,7 @@
 
 Artikla 2 asettaa **ainesoveltamisalan reunaehdot teknisille toteutuksille**:
 
-- **GDPR koskee luonnollisten henkilöiden dataa — ei oikeushenkilöiden.**:contentReference[oaicite:1]{index=1}  
-- **Automaattinen ja manuaalinen käsittely on teknisesti hallittava rekistereissä ja datavirroissa.**:contentReference[oaicite:2]{index=2}  
+- **GDPR koskee luonnollisten henkilöiden dataa — ei oikeushenkilöiden.**
+- **Automaattinen ja manuaalinen käsittely on teknisesti hallittava rekistereissä ja datavirroissa.**
 - **Poikkeukset (esim. viranomaiskäyttö, henkilökohtainen data) vaikuttavat siihen, miten tietosuojapolitiikka ja järjestelmät on konfiguroitava.**
 
