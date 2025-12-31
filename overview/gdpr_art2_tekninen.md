@@ -50,3 +50,24 @@ Artikla 2 asettaa **ainesoveltamisalan reunaehdot teknisille toteutuksille**:
 - **Automaattinen ja manuaalinen käsittely on teknisesti hallittava rekistereissä ja datavirroissa.**
 - **Poikkeukset (esim. viranomaiskäyttö, henkilökohtainen data) vaikuttavat siihen, miten tietosuojapolitiikka ja järjestelmät on konfiguroitava.**
 
+- ---
+
+## Aineellisen soveltamisalan visuaalinen flowchart
+
+```mermaid
+flowchart TD
+    A["Automatisoitu käsittely?"] -->|Kyllä| B["Henkilökohtaiset tai kotitaloutta koskevat toiminnot?"]
+    A -->|Ei| C["Rekisterijärjestelmät"]
+
+    C -->|Kyllä| B
+    C -->|Ei| D["Ei GDPR:n aineellisen soveltamisalan piirissä"]
+
+    B -->|Ei| E["Rikosoikeudellinen käsittely, kansallinen turvallisuus, ulkopolitiikka tai soveltamisalueen ulkopuolella?"]
+    B -->|Kyllä| D
+
+    E -->|Ei| F["GDPR:n aineellisen soveltamisalan piirissä"]
+    E -->|Kyllä| D
+markdown
+Copy code
+
+
