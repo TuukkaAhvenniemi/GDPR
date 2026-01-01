@@ -51,6 +51,6 @@ Tämä repository esittelee, miten GDPR:n vaatimukset kytkeytyvät teknisiin kon
 ## Projektin tavoite
 
 Tämä repository osoittaa **syvällistä teknistä osaamista GDPR:n kontekstissa**:  
-- Kyky rakentaa ja ylläpitää järjestelmiä, joissa henkilötiedot käsitellään turvallisesti.  
+- Kyky turvata ja ylläpitää järjestelmiä, joissa henkilötiedot käsitellään turvallisesti.  
 - Prosessien hallinta ja auditointivalmiudet, jotka näyttävät organisaation kyvyn noudattaa vaatimuksia käytännössä.  
 - Riskien tunnistaminen ja lieventäminen teknisten ja organisatoristen keinojen avulla.  
