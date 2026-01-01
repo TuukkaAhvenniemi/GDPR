@@ -66,28 +66,35 @@ Art. 29 liittyy suoraan DPIA-prosessiin seuraavilla tavoilla:
 
 - Uhkaskenaarioiden tunnistaminen
   - Luottamuksellisuus
-    - Luvaton pääsy tai tietovuoto
+    - Luvaton pääsy
+    - tietovuoto
   - Eheys
-    - Tietojen muuttuminen tai katoaminen
+    - Tietojen muuttuminen
+    - Tietojen katoaminen
   - Saatavuus
     - Palvelukatkot ja häiriöt
 - Todennäköisyyden arviointi
   - Harvinainen – mahdollinen – todennäköinen
     - Arviointiperusteet dokumentoituna
 - Vaikutuksen vakavuuden arviointi
-  - Rekisteröidyn oikeudet ja vapaudet
+  - Rekisteröidyn oikeudet
+  - Rekisteröidyn vapaudet
     - Taloudelliset, sosiaaliset ja oikeudelliset vaikutukset
 - Riskitason määrittely
   - Todennäköisyys × vaikutus
-    - Riskiluokitus ja priorisointi
+    - Riskiluokitus
+    - Priorisointi
 
 **Toimenpiteiden tehokkuus**
 
 - Tekniset toimenpiteet
-  - Käyttöoikeudet ja lokitus
+  - Käyttöoikeudet
+  - Lokitus
     - Valvonnan kattavuus
 - Organisatoriset toimenpiteet
-  - Ohjeet, koulutus ja prosessit
+  - Ohjeet
+  - Koulutus
+  - Prosessit
     - Noudattamisen seuranta
 - Jäännösriskin arviointi
   - Kontrollien jälkeen jäävä riski
@@ -101,8 +108,10 @@ Art. 29 liittyy suoraan DPIA-prosessiin seuraavilla tavoilla:
 **Poikkeusraportit**
 
 - Poikkeaman kuvaus
-  - Mitä tapahtui ja milloin
-    - Havaitsemis- ja reagointiaika
+  - Mitä
+  - Milloin
+    - Havaitsemisaika
+    - Reagointiaika
 - Vaikutetut tiedot
   - Henkilötietotyypit
     - Rekisteröityjen ryhmät
