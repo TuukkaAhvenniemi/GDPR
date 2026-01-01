@@ -1,4 +1,4 @@
-# GDPR – (GDPR / DPIA) – Art. 29 – Henkilötietojen käsittelijä ja alaiset 
+# GDPR – (GDPR / DPIA) – Art. 29 <br> Henkilötietojen käsittelijä ja alaiset 
 
 Art. 29 GDPR määrittelee selkeästi henkilötietojen käsittelijöiden ja heidän alaistensa vastuut:
 
