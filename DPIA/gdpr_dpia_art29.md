@@ -45,17 +45,108 @@ Art. 29 liittyy suoraan DPIA-prosessiin seuraavilla tavoilla:
   - yksityisyyden loukkaus / identiteettivarkaus  
 - Alihankkijoiden ja prosessointiketjun epäasianmukainen toiminta  
 
-**Arviointi ja dokumentointi:**  
-- Ketjun jokaisen vaiheen riskien kartoitus ja hallinta:  
-  - prosessin vaiheet ja vastuut  
-  - riskin todennäköisyys ja vakavuus  
-  - toimenpiteiden tehokkuus  
-- Poikkeustilanteiden dokumentointi ja päätöksenteon jäljitettävyys:  
-  - poikkeusraportit  
-  - hyväksymismenettelyt  
-  - vastuuhenkilöt  
+## Arviointi ja dokumentointi
 
-**Tekninen ja organisatorinen puolustus:**  
+### Ketjun jokaisen vaiheen riskien kartoitus ja hallinta
+
+**Prosessin vaiheet ja vastuut**
+
+- Käsittelytoiminnon kuvaus ja rajaus (mitä, miksi, miten, missä)
+  - Roolien ja vastuiden määrittely (rekisterinpitäjä, käsittelijä, alikäsittelijät)
+    - Vastuunjakotaulukko (RACI) ja omistajuus
+- Tietovirtojen tunnistaminen ja dokumentointi
+  - Sisäiset tietovirrat
+    - Järjestelmien väliset siirrot
+  - Ulkoiset tietovirrat
+    - Kolmannet osapuolet ja rajapinnat
+- Käytettävien järjestelmien ja teknologioiden kartoitus
+  - Pilvipalvelut ja alustat
+    - Sijainti ja siirtomekanismit
+- Riippuvuudet olemassa oleviin prosesseihin ja sopimuksiin
+  - Sopimus- ja ohjausdokumentaatio
+    - Tietojenkäsittelysopimukset (DPA)
+
+**Riskin todennäköisyys ja vakavuus**
+
+- Uhkaskenaarioiden tunnistaminen
+  - Luottamuksellisuus
+    - Luvaton pääsy tai tietovuoto
+  - Eheys
+    - Tietojen muuttuminen tai katoaminen
+  - Saatavuus
+    - Palvelukatkot ja häiriöt
+- Todennäköisyyden arviointi
+  - Harvinainen – mahdollinen – todennäköinen
+    - Arviointiperusteet dokumentoituna
+- Vaikutuksen vakavuuden arviointi
+  - Rekisteröidyn oikeudet ja vapaudet
+    - Taloudelliset, sosiaaliset ja oikeudelliset vaikutukset
+- Riskitason määrittely
+  - Todennäköisyys × vaikutus
+    - Riskiluokitus ja priorisointi
+
+**Toimenpiteiden tehokkuus**
+
+- Tekniset toimenpiteet
+  - Käyttöoikeudet ja lokitus
+    - Valvonnan kattavuus
+- Organisatoriset toimenpiteet
+  - Ohjeet, koulutus ja prosessit
+    - Noudattamisen seuranta
+- Jäännösriskin arviointi
+  - Kontrollien jälkeen jäävä riski
+    - Hyväksyttävyyden arviointi
+- Johtopäätös
+  - Hyväksy, pienennä tai estä käsittely
+    - Päätöksen perustelut
+
+### Poikkeustilanteiden dokumentointi ja päätöksenteon jäljitettävyys
+
+**Poikkeusraportit**
+- Poikkeaman kuvaus
+  - Mitä tapahtui ja milloin
+    - Havaitsemis- ja reagointiaika
+- Vaikutetut tiedot
+  - Henkilötietotyypit
+    - Rekisteröityjen ryhmät
+- Juuri-syyanalyysi
+  - Tekninen ja organisatorinen syy
+    - Prosessipoikkeama
+- Korjaavat toimenpiteet
+  - Välittömät toimet
+    - Pitkän aikavälin ehkäisy
+
+**Hyväksymismenettelyt**
+
+- Päätösprosessi
+  - Käsittely, arviointi ja eskalointi
+    - Dokumentoidut päätösvaiheet
+- Hyväksyntäkriteerit
+  - Riskinottohalukkuus
+    - Linjaus suhteessa strategiaan
+- Päätöksen dokumentointi
+  - Hyväksyntä, hylkäys tai jatkotoimet
+    - Päätöksen tekijä ja ajankohta
+
+**Vastuuhenkilöt**
+- Prosessin omistaja
+  - Kokonaisvastuu DPIA:sta
+    - Päätöksenteon omistajuus
+- Tietosuojavastaava (DPO)
+  - Riippumaton arvio
+    - Lausunto ja suositukset
+- Tietoturvavastaava
+  - Tekninen riskienhallinta
+    - Kontrollien toteutus
+- Liiketoiminnan edustaja
+  - Käyttötarkoituksen perustelu
+    - Operatiivinen vastuu
+- Hyväksyvä johto
+  - Riskin hyväksyntä
+    - Strateginen linjaus
+
+**Tekninen ja organisatorinen puolustus:**
+
 - Pääsynhallinta (RBAC, MFA)  
 - Auditointilokit ja seuranta  
 - Alihankkijoiden sopimusten dokumentointi ja valvonta  
@@ -65,6 +156,7 @@ Art. 29 liittyy suoraan DPIA-prosessiin seuraavilla tavoilla:
   - kirjalliset ohjeistukset ja koulutustodistukset  
 
 **Viranomaisviestintä:**  
+
 - Kyky osoittaa ja perustella, että kaikki käsittely tapahtuu asiakkaan ohjeiden mukaisesti ja että ketjun riskit on hallittu asianmukaisesti.  
 - Mahdollisia viranomaisia ja tarkastuksia:  
   - EU:n valvontaviranomainen (Data Protection Authority, DPA)  
