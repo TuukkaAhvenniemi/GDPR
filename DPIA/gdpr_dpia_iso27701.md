@@ -1,4 +1,4 @@
-# GDPR – ISO/IEC 27701 – DPIA ja PII-prosessoreiden hallinta
+# GDPR – ISO/IEC 27701 – DPIA – PII-prosessoreiden hallinta
 
 ISO/IEC 27701 (adopted 2019) täydentää ISO/IEC 27002 ohjeita erityisesti henkilötietojen käsittelyn (PII) hallintaan ja tukee GDPR:n Art. 29 soveltamista käytännössä. Tämä standardi tarjoaa konkreettisen viitekehyksen teknisten ja organisatoristen toimenpiteiden (TOMs) suunnitteluun ja dokumentointiin.
 
@@ -19,6 +19,8 @@ ISO/IEC 27701 (adopted 2019) täydentää ISO/IEC 27002 ohjeita erityisesti henk
   - Dokumentoi kaikki PII-prosessit ja ohjeistukset.
   - Määritä vastuut käsittelijöille ja alihankkijoille.
   - Luo hallintamalli, jossa Poikkeamien hallinta, RoPA ja DPIA ovat linkitettynä.
+ 
+---
 
 - **Sopimus- ja ohjeistusketju:**  
   - Sisällytä asiakkaan ohjeet palvelusopimukseen.  
@@ -28,6 +30,8 @@ ISO/IEC 27701 (adopted 2019) täydentää ISO/IEC 27002 ohjeita erityisesti henk
   - Alihankkijoiden sitouttaminen:  
     - Ala-ala pallura: varmista, että alihankkijat noudattavat samoja ohjeita  
     - Ala-ala pallura: tarkista auditointiraportit ja sopimuspoikkeamat
+   
+---
 
 - **Tekninen ja organisatorinen valvonta:**  
   - Pääsynhallinta (RBAC, MFA) ja rooliperusteinen valtuutus  
@@ -36,6 +40,8 @@ ISO/IEC 27701 (adopted 2019) täydentää ISO/IEC 27002 ohjeita erityisesti henk
   - Riskienhallinnan integrointi DPIA-prosessiin  
     - Ala-ala pallura: tunnista ja arvioi ketjun jokaisen vaiheen riskit  
     - Ala-ala pallura: dokumentoi lieventävät toimenpiteet ja residual riskit
+   
+---
 
 - **Todentaminen ja raportointi:**  
   - Asiakkaan tarkistusmahdollisuus prosessointien mukaisuudesta  
