@@ -32,8 +32,11 @@ Tämä repository esittelee, miten GDPR:n vaatimukset kytkeytyvät teknisiin kon
 - Ensisijainen tarkastuskohde auditoijille, mutta painottaa teknisten prosessien ja kontrollien näkyvyyttä.
 
 ### `/templates` – Käytännön dokumenttipohjat
-- DPA, rekisteriselosteet, RoPA, Incident- ja DPIA-mallit.  
-- Pohjat näyttävät, miten tekninen osaaminen yhdistyy hallintamalleihin ja prosessidokumentaatioon.
+- DPA
+- Rekisteriselosteet
+- RoPA
+- Incident
+- DPIA-mallit.  
 
 ### `/TOMs` – Tekniset ja organisatoriset toimenpiteet
 - Privacy by Design & Default, käsittelyn turvallisuus, vastuun osoittaminen.  
