@@ -45,9 +45,7 @@ Art. 29 liittyy suoraan DPIA-prosessiin seuraavilla tavoilla:
   - yksityisyyden loukkaus / identiteettivarkaus  
 - Alihankkijoiden ja prosessointiketjun epäasianmukainen toiminta  
 
-## Arviointi ja dokumentointi
-
-### Ketjun jokaisen vaiheen riskien kartoitus ja hallinta
+### Arviointi ja dokumentointi
 
 **Prosessin vaiheet ja vastuut**
 
@@ -103,6 +101,7 @@ Art. 29 liittyy suoraan DPIA-prosessiin seuraavilla tavoilla:
 ### Poikkeustilanteiden dokumentointi ja päätöksenteon jäljitettävyys
 
 **Poikkeusraportit**
+
 - Poikkeaman kuvaus
   - Mitä tapahtui ja milloin
     - Havaitsemis- ja reagointiaika
