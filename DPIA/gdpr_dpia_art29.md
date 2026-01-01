@@ -144,7 +144,7 @@ Art. 29 liittyy suoraan DPIA-prosessiin seuraavilla tavoilla:
   - Riskin hyväksyntä
     - Strateginen linjaus
 
-**Tekninen ja organisatorinen puolustus:**
+**Tekninen ja organisatorinen puolustus**
 
 - Pääsynhallinta (RBAC, MFA)  
 - Auditointilokit ja seuranta  
@@ -154,7 +154,7 @@ Art. 29 liittyy suoraan DPIA-prosessiin seuraavilla tavoilla:
   - riskienhallintasuunnitelmat  
   - kirjalliset ohjeistukset ja koulutustodistukset  
 
-**Viranomaisviestintä:**  
+**Viranomaisviestintä**  
 
 - Kyky osoittaa ja perustella, että kaikki käsittely tapahtuu asiakkaan ohjeiden mukaisesti ja että ketjun riskit on hallittu asianmukaisesti.  
 - Mahdollisia viranomaisia ja tarkastuksia:  
