@@ -4,8 +4,6 @@ Art. 29 GDPR määrittelee selkeästi henkilötietojen käsittelijöiden ja heid
 
 > Henkilötietojen käsittelijä tai kukaan rekisterinpitäjän tai käsittelijän alaisuudessa toimiva henkilö, jolla on pääsy henkilötietoihin, ei saa käsitellä niitä muuten kuin rekisterinpitäjän ohjeiden mukaisesti, ellei unionin oikeudessa tai jäsenvaltion lainsäädännössä niin vaadita.
 
-Tämä muodostaa juridisen ja käytännön pohjan kaikelle henkilötietojen hallinnalle organisaatiossa.
-
 ---
 
 ## Keskeiset periaatteet
