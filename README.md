@@ -1,7 +1,7 @@
 # GDPR-projekti – Tekninen ja käytännönlähtöinen kokonaiskuva
 
 Tervetuloa GDPR-projektiin, joka keskittyy **henkilötietojen käsittelyn tekniseen hallintaan ja tietoturvan toteutukseen**.  
-Tämä repository esittelee, miten GDPR:n vaatimukset kytkeytyvät teknisiin kontrollimenetelmiin, prosessinhallintaan ja organisaation riskienhallintaan. Juridinen konteksti on mukana, mutta pääpaino on käytännön osaamisessa.
+Tämä repository esittelee, miten GDPR:n vaatimukset kytkeytyvät teknisiin kontrollimenetelmiin, prosessinhallintaan ja organisaation riskienhallintaan. Juridinen konteksti on mukana, mutta keskitytään käytännön taitojen soveltamiseen teknisen asiantuntijan näkökulmasta.
 
 ---
 
